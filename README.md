@@ -36,6 +36,7 @@ import type { MyRouterDependencies } from "./myrouter.dependencies";
 
 const myService = new MyService();
 
+// Type safe!
 export const insertMyRouterDependencies =
   createDepsMiddleware<MyRouterDependencies>({
     myService,
