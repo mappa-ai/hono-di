@@ -31,7 +31,7 @@ pageRouter.get("/", (c) => {
 Create a middleware to inject them:
 
 ```ts
-import { createDepsMiddleware } from "@mappa/hono-di";
+import { createDepsMiddleware } from "@mappa-ai/hono-di";
 import type { MyRouterDependencies } from "./myrouter.dependencies";
 
 const myService = new MyService();

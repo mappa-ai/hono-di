@@ -1,6 +1,6 @@
 {
-  "name": "@mappa/hono-di",
-  "version": "1.0.1",
+  "name": "@mappa-ai/hono-di",
+  "version": "1.0.2",
   "description": "Simple dependency injection for Hono",
   "type": "module",
   "module": "dist/src/index.js",
